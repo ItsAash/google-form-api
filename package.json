@@ -1,0 +1,18 @@
+{
+  "name": "google_forms",
+  "version": "1.0.0",
+  "description": "# ENDPOINT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  }
+}
