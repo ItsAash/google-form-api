@@ -6,7 +6,7 @@ module.exports = {
   },
   time: {
     hours: 21,
-    minutes: 10,
+    minutes: 15,
     seconds: 0,
   },
 };
