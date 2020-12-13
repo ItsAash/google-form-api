@@ -25,6 +25,5 @@ function sendRequest(now) {
       status: "SENT",
       time: `${now.toLocaleTimeString()}`,
     });
-    console.log(await e);
   });
 }
