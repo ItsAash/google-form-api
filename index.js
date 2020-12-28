@@ -1,3 +1,1 @@
-module.exports = {
-  Forms = require('./form')
-}
+module.exports = require('./form')
