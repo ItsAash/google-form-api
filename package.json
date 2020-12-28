@@ -1,13 +1,13 @@
 {
-  "name": "google_forms",
+  "name": "google_forms_api",
   "version": "1.0.0",
-  "description": "# ENDPOINT",
+  "description": "Automate submitting google forms",
   "main": "index.js",
   "scripts": {
     "start": "node index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["api", "google api", "google form api", "submit google form"],
+  "author": "Aashish Neupane",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.1"

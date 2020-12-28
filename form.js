@@ -1,18 +1,27 @@
 const fetch = require("node-fetch");
 
-const Name = "Nothing+much+bro";
-const team = "Tero+bau";
-
+/**
+ * Creates new form instance
+ * @class
+ */
 class forms {
   constructor(formID) {
     this.formID = formID;
     this.data;
   }
 
+  /**
+   * This sets the data that is to be submitted.
+   * @param {Object} data - Data to be submitted. 
+   */
   setData(data) {
     this.data = data;
   }
 
+  /**
+   * This method sends the request to the google form endpoint whenever it is called
+   * @param {(res: fetch.Response)} callback - It calls the callback after request is sent.
+   */
   send(callback) {
     sendRequest(this.formID, this.data, callback);
   }
