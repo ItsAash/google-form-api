@@ -3,7 +3,7 @@ You can use this api to submit/automate google form.
 
 Paste this into commandline to install this package
 ```
-   node i google-forms-api 
+   npm i google-forms-api 
 ```
 
 ## How to use
