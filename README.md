@@ -17,7 +17,7 @@ Paste this into commandline to install this package
     
     ```js
     const Form = require("google-forms-api")
-    form = new Form('1FAIpQLSdmE4Cj8fkm-H16vqzuJx_9T78ufwMDszPiiqCiENNoop7s1A') // Form id
+    const form = new Form('1FAIpQLSdmE4Cj8fkm-H16vqzuJx_9T78ufwMDszPiiqCiENNoop7s1A') // Form id
     ```
 - #### Setting Data
     ```js
