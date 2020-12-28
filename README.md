@@ -1,9 +1,9 @@
-# Google Form API
+# Google Forms API
 You can use this api to submit/automate google form.
 
 Paste this into commandline to install this package
 ```
-   node i google-form-api 
+   node i google-forms-api 
 ```
 
 ## How to use
@@ -11,12 +11,12 @@ Paste this into commandline to install this package
 -  #### Importing package
 
     ```js
-    const Form = require("google-form-api")
+    const Form = require("google-forms-api")
     ```
 - #### Creating Form Instance
     
     ```js
-    const Form = require("google-from-api")
+    const Form = require("google-froms-api")
     form = new Form('1FAIpQLSdmE4Cj8fkm-H16vqzuJx_9T78ufwMDszPiiqCiENNoop7s1A') // Form id
     ```
 - #### Setting Data

@@ -1,14 +1,19 @@
 {
   "name": "google_forms_api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automate submitting google forms",
   "main": "index.js",
   "scripts": {
     "start": "node index"
   },
   "keywords": ["api", "google api", "google form api", "submit google form"],
-  "author": "Aashish Neupane",
+  "author": "Aashish Neupane itzzzaash@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsAash/google-form-api"
+  },
+  "homepage": "https://github.com/ItsAash/google-form-api",
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
