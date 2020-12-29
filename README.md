@@ -3,7 +3,7 @@ You can use this api to submit/automate google form.
 
 Paste this into commandline to install this package
 ```
-   npm i google-forms-api 
+   npm i google_forms_api 
 ```
 
 ## How to use
@@ -11,12 +11,12 @@ Paste this into commandline to install this package
 -  #### Importing package
 
     ```js
-    const Form = require("google-forms-api")
+    const Form = require("google_forms_api")
     ```
 - #### Creating Form Instance
     
     ```js
-    const Form = require("google-forms-api")
+    const Form = require("google_forms_api")
     const form = new Form('1FAIpQLSdmE4Cj8fkm-H16vqzuJx_9T78ufwMDszPiiqCiENNoop7s1A') // Form id
     ```
 - #### Setting Data
